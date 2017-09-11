@@ -54,7 +54,6 @@ INCLUDE_DIRECTORIES (SYSTEM ${OpenCV_INCLUDE_DIRS})
 # Find ODVDOpenDLVDStandardMessageSet.
 find_package(ODVDOpenDLVStandardMessageSet REQUIRED)
 
-
 ###########################################################################
 # Set common include directories.
 include_directories(SYSTEM ${OPENDAVINCI_INCLUDE_DIRS})
@@ -68,8 +67,7 @@ set(LIBRARIES ${OPENDAVINCI_LIBRARIES}
 
 ###########################################################################
 # Add subfolders with sources.
-add_subdirectory(flowbend)
-add_subdirectory(autobrake)
+add_subdirectory(groundspeed)
 #add_subdirectory(sensor/cameraleadvehicle)
 
 ###########################################################################
