@@ -21,7 +21,7 @@ project(opendlv-logic-cfsd18-flowbend)
 include_directories(include)
 
 ###############################################################################
-# Build this project.
+# Build this project.dfghjkl
 file(GLOB_RECURSE thisproject-sources "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 add_library(${PROJECT_NAME}-static STATIC ${thisproject-sources})
 add_executable(${PROJECT_NAME} "${CMAKE_CURRENT_SOURCE_DIR}/apps/${PROJECT_NAME}.cpp")
